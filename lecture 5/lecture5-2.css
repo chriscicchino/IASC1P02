@@ -1,0 +1,45 @@
+body{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background-color:green;
+}
+
+.wrapper{	
+	width:1000px;
+	margin:0 auto;
+}
+
+.red{
+	background-color:red;
+	text-align: center;
+	height:100px;
+}
+
+.pink{
+	background-color:pink;
+	height:100px;
+	width:35%;
+	padding:5px 0px 0px 0px;
+	float:left;
+}
+
+.orange{
+	background-color:orange;
+	height:100px;
+	width:65%;
+	padding:5px 0px 0px 0px;
+	float:right;
+}	
+
+.blue{
+	background-color:blue;
+	height:700px;
+	width:100%;
+	clear:both;
+}
+
+.yellow{
+	background-color:yellow;
+	height:100px;
+	width:100%;
+	display: inline-block;
+}
