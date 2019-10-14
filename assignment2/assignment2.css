@@ -1,0 +1,62 @@
+
+body {
+font-family : Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+background-color : #ECECEC;
+}
+
+.wrapper {
+margin : 0 auto;
+width : 1000px;
+}
+
+.red {
+color : red;
+}
+
+.largefont {
+font-size : 25px;
+font-family : Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+text-transform : lowercase;
+}
+
+.relativelink {
+position : relative;
+top : -55px;
+left : 220px;
+}
+
+.absolutelink {
+position : absolute;
+top : 70px;
+left : 260px;
+}
+
+.fixedlink {
+position : fixed;
+top : 305px;
+left : 1075px;
+width : 300px;
+}
+
+p, h1, h2, h3 {
+color : #9F9F9F;
+}
+
+a {
+color : #A3632F;
+}
+
+ul li {
+padding : 5px;
+}
+
+ol li {
+padding : 5px;
+}
+
+.toppage {
+margin : 5px 5px 5px 0;
+padding : 20px 20px 20px 55px;
+border : #A3632F dashed 1px;
+width : 205px;
+}
