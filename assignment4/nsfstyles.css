@@ -1,0 +1,131 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color:lightgray;
+	font-size:14px;
+}
+
+.wrapper{	
+	width:1000px;
+	margin:0 auto;
+}
+
+.header{
+	box-shadow: 0 0 6px #000;
+	background-color:#870305;
+	text-align: center;
+	height:100px;	
+}
+
+.headertop{
+	background-color:#FFFFFF;
+	height:10px;	
+	width:100%;
+	display: inline-block;
+}
+
+
+.picture{
+	background-color:#727272;
+	height:300px;
+	width:100%;
+	clear:both;
+}
+
+.contentabout{
+	background-color:lightgray;
+	height:750px;
+	width:100%;
+	display: inline-block;
+	text-align:center;
+}
+
+.contentdownload{
+	background-color:lightgray;
+	height:350px;
+	width:100%;
+	display: inline-block;
+	text-align:center;
+}
+
+
+.footer{
+	background-color:#FFFFFF;
+	height:100px;
+	width:100%;
+	display: inline-block;
+	text-align:center;
+	padding: 20px 0px 0px 0px;
+	color:#870305;
+}
+
+.footerbottom{
+	background-color:#870305;
+	height:10px;
+	width:100%;
+	display: inline-block;
+}
+
+h1{
+font-size:12px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h2{
+font-size:18px;
+color:#870305;
+text-align:center;
+}
+
+
+p{
+text-align: left;
+color:#636363; 
+width: 800px;
+margin:0 0 0 100px;
+}
+
+ul{
+color:#636363; 
+margin:0 0 0 200px;
+}
+
+a:link {
+color: #FFFFFF;
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #ff3300;
+} 
+
+mark{
+	color: #870305;
+}
+
+/*https://codepen.io/anotherwebguy/pen/zmGrrz*/
+
+.threeD {
+  color: #870305;
+  white-space: nowrap;
+  transform: translate(-0%, -50%);
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+
+.threeD:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-0%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+}
+
+
+
